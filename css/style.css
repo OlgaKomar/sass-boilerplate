@@ -1,0 +1,50 @@
+@import url(../node_modules/font-awesome/css/font-awesome.min.css);
+@keyframes cart-show {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0; } }
+
+.sku-btn-default {
+  padding: 0 30px;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 0 10px;
+  font-size: 18px; }
+  .sku-btn-default:hover {
+    color: #fff; }
+
+.sku-btn-primary {
+  color: #fff;
+  background: #f26f29; }
+
+.sku-btn-circle {
+  padding-left: 15px;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  background: #f26f29;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  transition: width 1s cubic-bezier(0.62, 0.1, 0.5, 1);
+  overflow: hidden; }
+  .sku-btn-circle:hover {
+    width: 150px;
+    color: #fff;
+    text-decoration: none; }
+    .sku-btn-circle:hover span {
+      display: inline; }
+  .sku-btn-circle span {
+    display: none;
+    white-space: nowrap; }
+
+body {
+  margin: 0;
+  background-color: #bada55;
+  font-size: 18px; }
