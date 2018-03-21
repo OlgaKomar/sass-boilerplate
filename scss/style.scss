@@ -1,9 +1,18 @@
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import './reset.min.css';
 @import './button.scss';
 
 $badass: #bada55;
+
+html, body {
+  height: 100%;
+}
+
 body { 
   margin: 0; 
   background-color: $badass;
   font-size: 18px;
+}
+.component-examples {
+  text-align: center;
 }
